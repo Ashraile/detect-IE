@@ -1,4 +1,4 @@
-// Detect IE without User-agent hacks. | Supports minification. | MIT license. | Version 1.1.7 | https://github.com/Kithraya/detect-IE
+// Detect IE without User-agent hacks. | Supports minification. | MIT license. | Version 1.1.7 | https://github.com/Ashraile/detect-IE
 
 window.isIE = (function(window, document, undefined) {
 
