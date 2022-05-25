@@ -19,7 +19,7 @@ window.isIE = (function(window, document, undefined) {
 		But if IE11's documentMode has been changed from the default, "is_default_IE11" will then return `false`,
 		and `@_jscript_version` will return "11". (Yep, textbook Microsoft)
 
-		Values: IE6|7: "5.6" / "5.7", IE8: "5.8", IE9: "9", IE10: "10", IE11*: "11", IE11: `undefined`, NOT IE: `undefined`;
+		Values: IE6 / 7: "5.6" or "5.7", IE8: "5.8", IE9: "9", IE10: "10", IE11 alt-doc mode: "11", IE11 / NOT IE: `undefined`.
 	*/
 
 	if (!jscript_version) { return false }
