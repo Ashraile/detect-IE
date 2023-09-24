@@ -1,4 +1,4 @@
-// Detect IE without User-agent hacks. | Supports minification. | MIT license. | Version 1.1.8 | https://github.com/Ashraile/detect-IE
+// Detect IE without User-agent hacks. | Supports minification. | MIT license | Version 1.1.8 | https://github.com/Ashraile/detect-IE
 // Returns either `false` or an object containing the browser version and document mode of Internet Explorer that is running.
 
 window.isIE = (function(window, document, undefined) {
