@@ -1,7 +1,7 @@
 window.isIE = (function() {
     var is_default_IE11 = !!(window.msCrypto && !document.currentScript);
     var jscript_version = +(function() {
-        try {return is_default_IE11 ? 11 : new Function('/*@cc_on return @_jscript_version; @*\/')()} catch(e){}
+        try {return is_default_IE11 ? 11 : new Function('/*@cc_on return @_jscript_version; @*\/')()} catch(e){} // Not IE => NaN, IE => `@_jscript_version` is a String
     })();
 
     // Workaround Test for Windows Service Pack Update (IE6 / 7). Document mode wasnt introduced until IE8, so this check works fine.
